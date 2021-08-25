@@ -27,7 +27,7 @@ Things to know
   - Decreasing window size should work as well.
   - ***YOU MUST DECLARE A FONT***. An unfortunate result of the way I coded this/a possible limitation of tkinter is that the program *requires* you to declare a font in Settings.py.
     - If you're on windows I believe the font I have setup is a default font already.
-  - The images you put in the folders *will not* be resized. If the image the player is trying to display is 800x800 and you've set your window size to be 1000x1000, it will not fill out the entire image. Similarly, if the image to be displayed is 1200x1200 and the window is 1000x1000, the window will cut off the image. My preferred method was to take it into gimp/paint 
+  - The images you put in the folders *will not* be resized. If the image the player is trying to display is 800x800 and you've set your window size to be 1000x1000, it will not fill out the entire image. Similarly, if the image to be displayed is 1200x1200 and the window is 1000x1000, the window will cut off the image. My preferred method was to take it into gimp/paint and resize/zoom the image into whatever I wanted to focus on.
 
 Possible quick updates?
 I think I want to rewrite this in C++ for faster speed, but I may fix some of these (hopefully) quick to fix isses.
